@@ -58,7 +58,16 @@
         echo 'Valor: '.$produto->value; */
     ?> -->
     <!-- AULA 3 COMBINANDO AS FEATURES DE "ARGUMENTOS" COM "PROPRIEDADE DE CONSTRUTOR"-->
-    
+    <!-- <?php 
+        /* class Produto{
+            public function __construct(public string $nome = '', public float $value = 0){}
+        }
+
+        $produto = new Produto(value: 1500, nome: 'celular');
+        echo "Produto: ".$produto->nome;
+        echo '<br>';
+        echo 'Valor: '.$produto->value; */
+    ?> -->
     <!-- AULA 4 CORRESPONDÊNCIA DE EXPRESSÃO-->
     
     <!-- AULA 5 OPERADOR NULLSAFE-->
