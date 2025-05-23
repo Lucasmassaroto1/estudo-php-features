@@ -69,7 +69,39 @@
         echo 'Valor: '.$produto->value; */
     ?> -->
     <!-- AULA 4 CORRESPONDÊNCIA DE EXPRESSÃO-->
-    
+    <!-- <?php 
+        /* $busca = 30;
+        switch($busca){ // faz comparação de == (Igualdade)
+            case '1':
+                $retornoSwitch = 'Encontrou o texto 1;';
+                break;
+            case 2:
+                $retornoSwitch = 'Encontrou o texto 2;';
+                break;
+            default:
+                $retornoSwitch = 'Não encontrou;';
+        }
+        echo 'Resultado switch: '.$retornoSwitch;
+        echo'<hr>';
+
+        $retornoMatch = match($busca){ // Faz a comparação por identidade || estrita (===)
+            '1' => 'Encontrou o texto 1',
+            1 => 'Encontrou o número 1',
+            '2', 2 => 'Encontrou o número 2 ou o texto 2',
+            default => 'Não Encontrou'
+        };
+
+        //Match com condicionais e operações lógicas
+        $retornoMatch = match(true){
+            $busca < 20 => 'Encontrou',
+            $busca >= 20 && $busca <= 30 => 'Encontrou um valor maior que 20 e menor que 30',
+            default => 'Não Encontrou'
+        };
+
+
+        echo 'Resultado match: '.$retornoMatch;
+        echo'<hr>'; */
+    ?> -->
     <!-- AULA 5 OPERADOR NULLSAFE-->
     
     <!-- AULA 6 COMPARAÇÕES MAIS SENSATAS ENTRE STRINGS E NÚMEROS-->
