@@ -36,7 +36,27 @@
         ); */
     ?> -->
     <!-- AULA 2 PROMOÇÃO DE PROPRIEDADE DE CONSTRUTOR -->
-    
+    <!-- <?php 
+        /* class Produto{
+            public string $nome = '';
+            public float $value = 0;
+            public function __construct($nome, $value){
+                $this->nome = $nome;
+                $this->value = $value;
+            }
+        }
+        class Produto{
+            public function __construct(
+                public string $nome = '',
+                public float $value = 0
+            ){}
+        }
+
+        $produto = new Produto('celular', 1500);
+        echo "Produto: ".$produto->nome;
+        echo '<br>';
+        echo 'Valor: '.$produto->value; */
+    ?> -->
     <!-- AULA 3 COMBINANDO AS FEATURES DE "ARGUMENTOS" COM "PROPRIEDADE DE CONSTRUTOR"-->
     
     <!-- AULA 4 CORRESPONDÊNCIA DE EXPRESSÃO-->
