@@ -103,7 +103,40 @@
         echo'<hr>'; */
     ?> -->
     <!-- AULA 5 OPERADOR NULLSAFE-->
-    
+    <!-- <?php 
+        /* $objeto = null;
+        if(isset($objeto) && $objeto != null){
+            $objeto->total();
+        }
+        // $objeto?->total();
+        // Operador ?(Nullsafe)
+        class Functionario{
+            public function __construct(private string $nome = '', private float $salario = 0){}
+            public function info(){
+                return "Nome: $this->nome - Salario: $this->salario";
+            }
+        }
+        class FolhaPagamento{
+            private $Functionarios = null;
+
+            public function __construct(){
+                $this->Functionarios = [
+                    new Functionario('Lucas', 100),
+                    new Functionario('massaroto', 1200),
+                ];
+            }
+            public function getTotalFuncionarios(){
+                return count($this->Functionarios);
+            }
+            public function getFuncionarios(){
+                return $this->Functionarios[1];
+            }
+        }
+        $folhaPagamento = new FolhaPagamento;
+        echo $folhaPagamento->getTotalFuncionarios();
+        echo '<br>';
+        print_r($folhaPagamento?->getFuncionarios()->info()); */
+    ?> -->
     <!-- AULA 6 COMPARAÇÕES MAIS SENSATAS ENTRE STRINGS E NÚMEROS-->
     
 </body>
